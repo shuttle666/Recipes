@@ -1,5 +1,7 @@
 # 🍳 Recipe Manager
 
+The project has been deployed at: https://recipes-one-azure.vercel.app/
+
 A modern React-based recipe management application with an intuitive interface for creating, editing, and managing your recipe collection.
 
 ## ✨ Features
