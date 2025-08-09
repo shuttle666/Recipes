@@ -84,7 +84,7 @@ const App = () => {
 
   const [lastSelectedRecipeId, setLastSelectedRecipeId] = useState()
 
-  // 为了选择内容
+  // 为了选择内容(根据ID查找选中的食谱)
   function handleSelectRecipe() {
     return recipes.find(recipe => recipe.id === selectedRecipeId)
   }
@@ -136,7 +136,7 @@ const App = () => {
     // 通过id找到要改变部分的index
     const index = recipes.findIndex(r => r.id === id)
 
-    // 替换芯内容
+    // 替换新内容
     newRecipes[index] = recipe
 
     // 把新的整体丢进去

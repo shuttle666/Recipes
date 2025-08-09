@@ -13,8 +13,10 @@ const Editor = (props) => {
     handleRecipeChange,
   } = props
 
+  // 拿到具体选择食谱的内容
   const recipe = handleSelectRecipe()
 
+  // 解构赋值
   const { id, name, cookTime, servings, instructions, ingredients } = recipe
 
   function handleChange(changes) {
